@@ -1,0 +1,97 @@
+/* Google Fonts - Elegant Serif */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #000;
+  color: #FFD700;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  border-bottom: 1px solid #FFD700;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar nav a {
+  color: #FFD700;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.navbar nav a:hover {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(180deg, #000 0%, #111 100%);
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: #FFD700;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #fff;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.portfolio h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.card {
+  background: #111;
+  border: 1px solid #FFD700;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  border-top: 1px solid #FFD700;
+}
